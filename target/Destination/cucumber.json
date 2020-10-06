@@ -1,0 +1,213 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5842096100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate to NHS Costs checker tool",
+            "match": {
+              "location": "CostCheckerEndtoEndJourney.user_navigate_to_NHS_Costs_checker_tool()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User checks NHS cost providing circumstances as YES",
+        "description": "",
+        "id": "user-from-wales-checks-nhs-cost;user-checks-nhs-cost-providing-circumstances-as-yes",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 551359300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is from Wales",
+            "match": {
+              "location": "CostCheckerEndtoEndJourney.user_is_from_Wales()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3106078500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters circumstances into the Checker tool as YES",
+            "match": {
+              "location": "CostCheckerEndtoEndJourney.user_enters_circumstances_into_the_Checker_tool_as_YES()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 883313600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User get a result of whether User will get help or not",
+            "match": {
+              "location": "CostCheckerEndtoEndJourney.user_get_a_result_of_whether_User_will_get_help_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4796708000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate to NHS Costs checker tool",
+            "match": {
+              "location": "CostCheckerEndtoEndJourney.user_navigate_to_NHS_Costs_checker_tool()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "User checks NHS cost providing circumstances as NO",
+        "description": "",
+        "id": "user-from-wales-checks-nhs-cost;user-checks-nhs-cost-providing-circumstances-as-no",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 529662600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is from Wales",
+            "match": {
+              "location": "CostCheckerEndtoEndJourney.user_is_from_Wales()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4574641700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters circumstances into the Checker tool as NO",
+            "match": {
+              "location": "CostCheckerEndtoEndJourney.user_enters_circumstances_into_the_Checker_tool_as_NO()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999637800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User get a result of whether User will get help or not",
+            "match": {
+              "location": "CostCheckerEndtoEndJourney.user_get_a_result_of_whether_User_will_get_help_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4831886600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate to NHS Costs checker tool",
+            "match": {
+              "location": "CostCheckerEndtoEndJourney.user_navigate_to_NHS_Costs_checker_tool()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "User checks NHS cost as aged under sixteen",
+        "description": "",
+        "id": "user-from-wales-checks-nhs-cost;user-checks-nhs-cost-as-aged-under-sixteen",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 541072800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is from Wales",
+            "match": {
+              "location": "CostCheckerEndtoEndJourney.user_is_from_Wales()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 401226000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters circumstances into the Checker tool as aged under sixteen",
+            "match": {
+              "location": "CostCheckerEndtoEndJourney.user_enters_circumstances_into_the_Checker_tool_as_aged_under_sixteen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 868915500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User get a result of whether User will get help or not",
+            "match": {
+              "location": "CostCheckerEndtoEndJourney.user_get_a_result_of_whether_User_will_get_help_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User from wales checks NHS cost",
+    "description": "",
+    "id": "user-from-wales-checks-nhs-cost",
+    "keyword": "Feature",
+    "uri": "NHScostcheck.feature"
+  }
+]

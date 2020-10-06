@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+<listeners>
+<listener class-name="TestListeners.CustomListener"/>
+<listener class-name="TestListeners.MyTransformer"/>
+<listener class-name="TestListeners.ExtentReportListener"/>
+</listeners>
+<test thread-count="2" name="CostCheckTest">
+  <classes>
+  <class name="TestRunner.TestRunnerNHS"/>
+  </classes>
+  
+  </test> <!-- CostCheckTest -->
+</suite> <!-- TestSuite -->
