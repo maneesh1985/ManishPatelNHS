@@ -130,6 +130,10 @@ public class BaseClass {
 	Assert.assertTrue(true);
 	}
 	
+	public void NewPage() {
+		
+	}
+	
 	
 	
 	
