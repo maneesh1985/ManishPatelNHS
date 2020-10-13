@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="TestListeners.CustomListener"/>
+    <listener class-name="TestListeners.MyTransformer"/>
+    <listener class-name="TestListeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="CostCheckTest(failed)">
+    <classes>
+      <class name="TestRunner.TestRunnerNHS">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- TestRunner.TestRunnerNHS -->
+    </classes>
+  </test> <!-- CostCheckTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
