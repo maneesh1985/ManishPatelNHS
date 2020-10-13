@@ -51,11 +51,7 @@ public class BaseClass {
 	
 	System.out.println(" browser "+System.getProperty("browser"));
 		
-	/*
-	 * To Run The Test Suite in Eclipse or IntelliJ IDE please 
-	 * remove the slash on below string.
-	 * 
-	 */
+	
 	
 	String browser=	properties.getProperty("browser");
 	
