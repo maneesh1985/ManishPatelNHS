@@ -11,10 +11,10 @@ public class DiabetesPage extends BaseClass {
 		verifyTitle("Do you have diabetes?");
 	}
 	
-	public GlaucomaPage selectDiabetesAsNo() {
+	public YouOrFamilyHaveGlaucomaPage selectDiabetesAsNo() {
 		clickOnNoRadioBtn();
 		clickOnNextBtn();
-		return new GlaucomaPage();
+		return new YouOrFamilyHaveGlaucomaPage();
 	}
 
 }

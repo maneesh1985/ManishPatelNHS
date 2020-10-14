@@ -49,7 +49,7 @@ public class CostCheckerEndtoEndJourney extends BaseClass {
 		.selectGivenBirthAsNo()
 		.selectInjuryOrIllnessAsNo()
 		.selectDiabetesAsNo()
-		.selectGlaucomaAsNo()
+		.selectDoYouOrFamilyGlaucomaAsNo()
 		.selectCareHomeAsNo()
 		.selectInvestmentOrPropertyAsNo();
 	}
