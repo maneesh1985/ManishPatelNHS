@@ -22,7 +22,7 @@ formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_navigate_to_NHS_Costs_checker_tool()"
 });
 formatter.result({
-  "duration": 7549378800,
+  "duration": 9660216200,
   "status": "passed"
 });
 formatter.scenario({
@@ -52,21 +52,21 @@ formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_is_from_Wales()"
 });
 formatter.result({
-  "duration": 439680900,
+  "duration": 770674200,
   "status": "passed"
 });
 formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_enters_circumstances_into_the_Checker_tool_as_YES()"
 });
 formatter.result({
-  "duration": 2834306600,
+  "duration": 4340479700,
   "status": "passed"
 });
 formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_get_a_result_of_whether_User_will_get_help_or_not()"
 });
 formatter.result({
-  "duration": 737404100,
+  "duration": 1410066200,
   "status": "passed"
 });
 formatter.background({
@@ -85,7 +85,7 @@ formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_navigate_to_NHS_Costs_checker_tool()"
 });
 formatter.result({
-  "duration": 6283234700,
+  "duration": 6205561600,
   "status": "passed"
 });
 formatter.scenario({
@@ -115,14 +115,14 @@ formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_is_from_Wales()"
 });
 formatter.result({
-  "duration": 331340600,
+  "duration": 589309600,
   "status": "passed"
 });
 formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_enters_circumstances_into_the_Checker_tool_as_NO()"
 });
 formatter.result({
-  "duration": 1832774300,
+  "duration": 3746189900,
   "error_message": "java.lang.AssertionError: expected [Do you have glaucoma?] but found [Do you or a family member have glaucoma?]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat Base.BaseClass.verifyTitle(BaseClass.java:126)\r\n\tat Pages.GlaucomaPage.\u003cinit\u003e(GlaucomaPage.java:11)\r\n\tat Pages.DiabetesPage.selectDiabetesAsNo(DiabetesPage.java:17)\r\n\tat StepDefinitions.CostCheckerEndtoEndJourney.user_enters_circumstances_into_the_Checker_tool_as_NO(CostCheckerEndtoEndJourney.java:51)\r\n\tat ✽.When User enters circumstances into the Checker tool as NO(NHScostcheck.feature:16)\r\n",
   "status": "failed"
 });
@@ -148,7 +148,7 @@ formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_navigate_to_NHS_Costs_checker_tool()"
 });
 formatter.result({
-  "duration": 6321941100,
+  "duration": 7361064300,
   "status": "passed"
 });
 formatter.scenario({
@@ -178,21 +178,21 @@ formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_is_from_Wales()"
 });
 formatter.result({
-  "duration": 405996500,
+  "duration": 934848200,
   "status": "passed"
 });
 formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_enters_circumstances_into_the_Checker_tool_as_aged_under_sixteen()"
 });
 formatter.result({
-  "duration": 710628600,
+  "duration": 839175000,
   "status": "passed"
 });
 formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_get_a_result_of_whether_User_will_get_help_or_not()"
 });
 formatter.result({
-  "duration": 721100000,
+  "duration": 1098391300,
   "status": "passed"
 });
 });

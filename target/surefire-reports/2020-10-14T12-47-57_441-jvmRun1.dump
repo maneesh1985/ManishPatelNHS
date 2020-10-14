@@ -1,13 +1,5 @@
-# Created on 2020-10-13T15:13:25.437
-org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-BPNON4T', ip: '192.168.0.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+# Created on 2020-10-14T12:47:59.474
+java.lang.NullPointerException
 	at Base.BaseClass.failedScreenShots(BaseClass.java:114)
 	at TestListeners.CustomListener.onTestFailure(CustomListener.java:31)
 	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
