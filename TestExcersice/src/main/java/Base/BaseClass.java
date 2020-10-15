@@ -21,7 +21,7 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
 /*
- * New Base Class
+ * New Base Class is this one
  */
 
 public class BaseClass {
