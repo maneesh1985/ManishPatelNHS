@@ -20,7 +20,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
-
+/*
+ * This is The Base Class 
+ */
 
 public class BaseClass {
 	
