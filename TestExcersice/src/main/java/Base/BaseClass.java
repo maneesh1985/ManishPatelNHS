@@ -19,10 +19,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-/*
- * This is the base class
- * 
- */
+
 
 
 public class BaseClass {
