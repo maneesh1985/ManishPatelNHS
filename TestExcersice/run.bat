@@ -1,3 +1,3 @@
 cd C:\Users\hetal\git\ManishPatelNHS\TestExcersice
-mvn clean install
+mvn verify -DOS=Windows -Dbrowser=chrome
 
