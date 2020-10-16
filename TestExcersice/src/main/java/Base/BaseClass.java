@@ -19,7 +19,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-
+/*
+ * made changes in base class
+ */
 
 
 public class BaseClass {
