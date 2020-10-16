@@ -18,10 +18,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.openqa.selenium.support.events.WebDriverEventListener;
 import org.testng.Assert;
 /*
  * made changes in base class
  */
+
+import TestListeners.WebEventListener;
+
+
 
 
 public class BaseClass {
@@ -29,7 +35,8 @@ public class BaseClass {
 	public static WebDriver driver;
 	public static Properties properties;
 	public static String browser;
-	
+	public static EventFiringWebDriver e_driver;
+	public static WebDriverEventListener eventListener;
 	
 	public BaseClass() {
 		
@@ -65,6 +72,10 @@ public class BaseClass {
 		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\"+properties.getProperty("firefox_driver"));
 		driver=new FirefoxDriver();
 	}
+	e_driver = new EventFiringWebDriver(driver);
+	eventListener = new WebEventListener();
+	e_driver.register(eventListener);
+	driver=e_driver;
 	
 	driver.manage().window().maximize();
 	driver.manage().deleteAllCookies();
