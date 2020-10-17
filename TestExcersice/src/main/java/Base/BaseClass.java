@@ -65,7 +65,7 @@ public class BaseClass {
 		
 	
 	
-	String browser=	properties.getProperty("browser");
+	//String browser=	properties.getProperty("browser");
 	
 	if(browser.equalsIgnoreCase("chrome")) {
 		
