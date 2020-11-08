@@ -5,7 +5,6 @@ import Pages.CheckHelpPage;
 import Pages.CountryPage;
 import Pages.DateOfBirthPage;
 import Pages.ResultPage;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
