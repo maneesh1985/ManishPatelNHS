@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Oct 14 12:48:38 BST 2020</td>
+<td>Started on:</td><td>Thu Oct 15 13:11:16 BST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>37 seconds (37634 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (803 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,17 +76,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='TestRunner.TestRunnerNHS.feature()'><b>feature</b><br>Test class: TestRunner.TestRunnerNHS<br>Test method: Runs Cucumber Feature<br>Parameters: User from wales checks NHS cost</td>
-<td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [Do you have glaucoma?] but found [Do you or a family member have glaucoma?]
+<td><div><pre>cucumber.runtime.CucumberException: java.lang.NullPointerException
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-Caused by: java.lang.AssertionError: expected [Do you have glaucoma?] but found [Do you or a family member have glaucoma?]
-	at Base.BaseClass.verifyTitle(BaseClass.java:126)
-	at Pages.GlaucomaPage.&lt;init&gt;(GlaucomaPage.java:11)
-	at Pages.DiabetesPage.selectDiabetesAsNo(DiabetesPage.java:17)
-	at StepDefinitions.CostCheckerEndtoEndJourney.user_enters_circumstances_into_the_Checker_tool_as_NO(CostCheckerEndtoEndJourney.java:51)
-	at ?.When User enters circumstances into the Checker tool as NO(NHScostcheck.feature:16)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace278986288", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace278986288'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [Do you have glaucoma?] but found [Do you or a family member have glaucoma?]
+Caused by: java.lang.NullPointerException
+	at Base.BaseClass.setup(BaseClass.java:71)
+	at StepDefinitions.CostCheckerEndtoEndJourney.user_navigate_to_NHS_Costs_checker_tool(CostCheckerEndtoEndJourney.java:21)
+	at ?.Given User navigate to NHS Costs checker tool(NHScostcheck.feature:5)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace911501858", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace911501858'><pre>cucumber.runtime.CucumberException: java.lang.NullPointerException
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -117,44 +115,20 @@ Caused by: java.lang.AssertionError: expected [Do you have glaucoma?] but found 
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-Caused by: java.lang.AssertionError: expected [Do you have glaucoma?] but found [Do you or a family member have glaucoma?]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
-	at Base.BaseClass.verifyTitle(BaseClass.java:126)
-	at Pages.GlaucomaPage.&lt;init&gt;(GlaucomaPage.java:11)
-	at Pages.DiabetesPage.selectDiabetesAsNo(DiabetesPage.java:17)
-	at StepDefinitions.CostCheckerEndtoEndJourney.user_enters_circumstances_into_the_Checker_tool_as_NO(CostCheckerEndtoEndJourney.java:51)
-	at ?.When User enters circumstances into the Checker tool as NO(NHScostcheck.feature:16)
+Caused by: java.lang.NullPointerException
+	at Base.BaseClass.setup(BaseClass.java:71)
+	at StepDefinitions.CostCheckerEndtoEndJourney.user_navigate_to_NHS_Costs_checker_tool(CostCheckerEndtoEndJourney.java:21)
+	at ?.Given User navigate to NHS Costs checker tool(NHScostcheck.feature:5)
 </pre></div></td>
-<td>37</td>
+<td>0</td>
 <td>TestRunner.TestRunnerNHS@646be2c3</td></tr>
 <tr>
 <td title='TestRunner.TestRunnerNHS.feature()'><b>feature</b><br>Test class: TestRunner.TestRunnerNHS<br>Test method: Runs Cucumber Feature</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-BPNON4T&apos;, ip: &apos;192.168.0.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+<td><div><pre>java.lang.NullPointerException
 	at Base.BaseClass.failedScreenShots(BaseClass.java:114)
 	at TestListeners.CustomListener.onTestFailure(CustomListener.java:31)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace520082748", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace520082748'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-BPNON4T&apos;, ip: &apos;192.168.0.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace948675904", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace948675904'><pre>java.lang.NullPointerException
 	at Base.BaseClass.failedScreenShots(BaseClass.java:114)
 	at TestListeners.CustomListener.onTestFailure(CustomListener.java:31)
 	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
@@ -183,7 +157,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 </pre></div></td>
-<td>37</td>
+<td>0</td>
 <td>TestRunner.TestRunnerNHS@646be2c3</td></tr>
 </table><p>
 </body>

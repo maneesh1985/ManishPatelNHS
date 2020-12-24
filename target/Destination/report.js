@@ -22,8 +22,9 @@ formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_navigate_to_NHS_Costs_checker_tool()"
 });
 formatter.result({
-  "duration": 9660216200,
-  "status": "passed"
+  "duration": 258276900,
+  "error_message": "java.lang.NullPointerException\r\n\tat Base.BaseClass.setup(BaseClass.java:71)\r\n\tat StepDefinitions.CostCheckerEndtoEndJourney.user_navigate_to_NHS_Costs_checker_tool(CostCheckerEndtoEndJourney.java:21)\r\n\tat ✽.Given User navigate to NHS Costs checker tool(NHScostcheck.feature:5)\r\n",
+  "status": "failed"
 });
 formatter.scenario({
   "line": 7,
@@ -52,22 +53,19 @@ formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_is_from_Wales()"
 });
 formatter.result({
-  "duration": 770674200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_enters_circumstances_into_the_Checker_tool_as_YES()"
 });
 formatter.result({
-  "duration": 4340479700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_get_a_result_of_whether_User_will_get_help_or_not()"
 });
 formatter.result({
-  "duration": 1410066200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.background({
   "line": 3,
@@ -85,8 +83,9 @@ formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_navigate_to_NHS_Costs_checker_tool()"
 });
 formatter.result({
-  "duration": 6205561600,
-  "status": "passed"
+  "duration": 869100,
+  "error_message": "java.lang.NullPointerException\r\n\tat Base.BaseClass.setup(BaseClass.java:71)\r\n\tat StepDefinitions.CostCheckerEndtoEndJourney.user_navigate_to_NHS_Costs_checker_tool(CostCheckerEndtoEndJourney.java:21)\r\n\tat ✽.Given User navigate to NHS Costs checker tool(NHScostcheck.feature:5)\r\n",
+  "status": "failed"
 });
 formatter.scenario({
   "line": 13,
@@ -115,16 +114,13 @@ formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_is_from_Wales()"
 });
 formatter.result({
-  "duration": 589309600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_enters_circumstances_into_the_Checker_tool_as_NO()"
 });
 formatter.result({
-  "duration": 3746189900,
-  "error_message": "java.lang.AssertionError: expected [Do you have glaucoma?] but found [Do you or a family member have glaucoma?]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat Base.BaseClass.verifyTitle(BaseClass.java:126)\r\n\tat Pages.GlaucomaPage.\u003cinit\u003e(GlaucomaPage.java:11)\r\n\tat Pages.DiabetesPage.selectDiabetesAsNo(DiabetesPage.java:17)\r\n\tat StepDefinitions.CostCheckerEndtoEndJourney.user_enters_circumstances_into_the_Checker_tool_as_NO(CostCheckerEndtoEndJourney.java:51)\r\n\tat ✽.When User enters circumstances into the Checker tool as NO(NHScostcheck.feature:16)\r\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_get_a_result_of_whether_User_will_get_help_or_not()"
@@ -148,8 +144,9 @@ formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_navigate_to_NHS_Costs_checker_tool()"
 });
 formatter.result({
-  "duration": 7361064300,
-  "status": "passed"
+  "duration": 860000,
+  "error_message": "java.lang.NullPointerException\r\n\tat Base.BaseClass.setup(BaseClass.java:71)\r\n\tat StepDefinitions.CostCheckerEndtoEndJourney.user_navigate_to_NHS_Costs_checker_tool(CostCheckerEndtoEndJourney.java:21)\r\n\tat ✽.Given User navigate to NHS Costs checker tool(NHScostcheck.feature:5)\r\n",
+  "status": "failed"
 });
 formatter.scenario({
   "line": 19,
@@ -178,21 +175,18 @@ formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_is_from_Wales()"
 });
 formatter.result({
-  "duration": 934848200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_enters_circumstances_into_the_Checker_tool_as_aged_under_sixteen()"
 });
 formatter.result({
-  "duration": 839175000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CostCheckerEndtoEndJourney.user_get_a_result_of_whether_User_will_get_help_or_not()"
 });
 formatter.result({
-  "duration": 1098391300,
-  "status": "passed"
+  "status": "skipped"
 });
 });
