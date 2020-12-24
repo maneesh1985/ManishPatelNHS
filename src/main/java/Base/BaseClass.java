@@ -19,10 +19,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-/*
-Hello This is for manish patel
-
- */
 
 
 public class BaseClass {
